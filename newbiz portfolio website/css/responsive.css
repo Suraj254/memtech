@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+
+@media (min-width: 768px)
+{
+	.desktop-menu{
+		display: block !important;
+		float: right !important;
+	}
+
+	.desktop-menu li{
+		display: inline-block;
+	}
+}
+
+@media (max-width: 768px)
+{
+	.mobile-menu{
+		display: block !important;
+		float: right !important;
+	}
+
+	.about-title-des-br{
+		display: none !important;
+	}
+
+	.about-icon-col{
+    padding-left: 10px !important;
+  }
+
+  .about-pic{
+  	margin-top: 0px;
+  }
+
+   .about-extra-1 p,.about-extra-2 p{
+    text-align: justify;
+  }
+
+  .about-extra-1{
+  	margin-top: 30px;
+    padding: 0px;
+  }
+
+  .about-extra-1 h2{
+  	font-size: 25px;
+  	margin-top: 20px;
+  }
+  .about-extra-2 h2{
+  	font-size: 25px;
+  }
+
+  .srv-des-one{
+  	width: 80% !important;
+  	margin-right: 0% !important;
+  	float: left;
+  	margin-left: 10% !important;
+  	margin-bottom: 20px;
+  }
+
+  .srv-des-two{
+  	width: 80% !important;
+  	margin-left: 10% !important;
+  	margin-bottom: 20px;
+  }
+
+  .service-head br{
+  	display: none;
+  }
+
+
+
+}
+
+@media(max-width: 480px)
+{
+	.about-icon-des{
+		padding-left:50px !important;
+	}
+
+	.about-icon-des p{
+		text-align: justify !important;
+	}
+
+	.srv-des-two,.srv-des-one{
+		width: 100% !important;
+		margin-left: 0% !important;
+	}
+}
